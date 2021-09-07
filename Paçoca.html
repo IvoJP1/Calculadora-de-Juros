@@ -31,6 +31,7 @@
             text-align: center;
             background-color: lightblue;
             border-radius: 10px;
+            padding: 0px 10px 0px 10px;
         }
         .pup{
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -88,6 +89,10 @@
         .ca{
             padding: 10px 0px;
         }
+
+        
+            
+        
     
     </style>
 
@@ -97,14 +102,14 @@
             <h2 class = pup>Insira os dados:</h2>
             <form>
             <div class= ca>
-                <input type="text" placeholder='Nome:' class="a"/>
+                <input id="nomeid" type="text" placeholder='Nome:' class="a"/>
             </div>
             <div class = ca>
-                <input type="number" placeholder='Mensalidade:' class="b" min="1"/>
+                <input id="mensaid" type="number" placeholder='Mensalidade:' class="b" min="1"/>
             </div>
             <div class=ca>
                 <label class=q>Tempo: </label>
-                <select name='ler' class="c">
+                <select id="anoid" name='ler' class="c">
                     <option value='0' disabled>Tempo</option>
                     <option value='1'>1 ano</option>
                     <option value='2'>2 anos</option>
@@ -119,7 +124,7 @@
                 </select>
             </div>
             <div class=ca>
-                <input type="submit" value="Simular" class="d">
+                <a href="file:///C:/Users/LowCost/Desktop/HTML/Rpa%C3%A7oca.html?"><input type="button" value="Simular" class="d"></a>
             </div>
             </form>
         </div>
